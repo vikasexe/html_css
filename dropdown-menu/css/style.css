@@ -1,0 +1,79 @@
+html{
+	width: 100%;
+}
+
+body{
+  padding: 0;
+	margin: 0;
+	width: 100%;
+	background: url("https://unsplash.it/2000/2000?image=992") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.mainNav{
+	list-style: none;
+	margin: 0;
+  padding: 0 20px;
+	float: left;
+	width: 100%;
+	background: #222;
+}
+
+.mainNav li{
+	float: left;
+	margin: 0;
+	padding: 0 15px 0 0;
+	position: relative;
+}
+
+.mainNav li a {
+	font-family: sans-serif;
+	padding: 11px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+
+.mainNav li a:hover{
+	color: #E46401;
+}
+
+.mainNav li span.subhover{
+	background-position: center bottom;
+	cursor: pointer;
+}
+
+.mainNav li .subNav{
+	list-style: none;
+	position: absolute; 
+	left: 0;
+	top: 40px;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	display: none;
+	float: left;
+	width: 100px;
+	border: 1px solid #111;
+	overflow: hidden;
+}
+
+.mainNav li .subNav li{
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #444;
+	clear: both;
+	width: 120px;
+}
+
+html .mainNav li .subNav li a{
+	float: left;
+	width: 120px;
+	background: #222;
+
+}
+
+html .mainNav li .subNav li a:hover{
+	background: #333;
+}
